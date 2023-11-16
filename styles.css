@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: #fff;
+    
+}
+#container{
+    padding: 10px;
+    margin: auto;
+    max-width: 800px;
+}
+section{
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    margin:10px 0;
+ }
+
+input{
+    margin:3px;   
+
+}
+label{
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor:pointer;
+    margin-bottom: 5px;
+    margin-top:8px;
+}
+
+label:hover{
+    background-color: rgb(146, 76, 153);
+
+}
+
+button{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(118, 215, 200);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+#Aciertos{
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px;
+}
+#result{
+    font-size: 25px;
+}
+
